@@ -9,13 +9,6 @@
     <title>FLORES</title>
 </head>
 
-<body>
-
-    <!-- Audio oculto -->
-    <audio id="miAudio" src="img/Floricienta.mp3"></audio>
-    
-</body>
-    
 <body class="container">
     <div class="night"></div>
     <div class="flowers">
@@ -35,7 +28,6 @@
           <div class="flower__light flower__light--6"></div>
           <div class="flower__light flower__light--7"></div>
           <div class="flower__light flower__light--8"></div>
-  
         </div>
         <div class="flower__line">
           <div class="flower__line__leaf flower__line__leaf--1"></div>
@@ -63,7 +55,6 @@
           <div class="flower__light flower__light--6"></div>
           <div class="flower__light flower__light--7"></div>
           <div class="flower__light flower__light--8"></div>
-  
         </div>
         <div class="flower__line">
           <div class="flower__line__leaf flower__line__leaf--1"></div>
@@ -89,7 +80,6 @@
           <div class="flower__light flower__light--6"></div>
           <div class="flower__light flower__light--7"></div>
           <div class="flower__light flower__light--8"></div>
-  
         </div>
         <div class="flower__line">
           <div class="flower__line__leaf flower__line__leaf--1"></div>
@@ -314,6 +304,21 @@
         </div>
       </div>
     </div>
+
+    <!-- Agregar la etiqueta de audio -->
+    <audio id="floricienta" autoplay loop>
+        <source src="img/Floricienta.mp3" type="audio/mpeg">
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>
+
+     <!-- Script del mensaje -->
+    <script>
+        window.onload = function() {
+            alert("Gracias por tu cariño, comprensión y amistad durante todo este tiempo");
+        };
+    </script>
+
     <script src="main.js"></script>
-  </body>
+    
+</body>
 </html>
